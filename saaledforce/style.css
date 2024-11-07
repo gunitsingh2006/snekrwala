@@ -1,0 +1,270 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;  
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#header{
+    height: 10vh;
+    width: 100%;
+    font-weight: bolder;
+    font-size: larger;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-around;
+    font-weight: bolder;
+}
+
+#logo{
+height: 70%;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text{
+    color: rgb(0, 0, 147);
+    display: flex;
+}
+.text:hover{
+    color: rgb(51, 192, 197);
+}
+
+.icon{
+    padding: 10px;
+    border-radius: 50%;
+}
+.icon:hover{
+    background-color: rgb(156, 210, 246);
+}
+#login{
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#login:hover{
+    background-color: rgb(156, 210, 246);
+}
+
+#try{
+   padding: 10px 20px;
+   background-color: rgb(16, 184, 16);
+   color: white;
+}
+
+#try:hover{
+    background-color: rgb(5, 79, 5);
+}
+
+#fakeheader{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(245, 247, 248);
+}
+
+#contact{
+   
+    font-weight: lighter;
+}
+
+#page1{
+    height: 90vh;
+    width: 100%;
+    /* background-color:rgb(202, 48, 48); */
+}
+
+#strip{
+    width: 100%;
+    height: 9%;
+    font-size: large;
+    background-color: rgb(1, 6, 148);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+#content1{
+    width: 100%;
+    height: 73%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin: 15px; */
+    
+}
+#box1{
+    height: 90%;
+    width: 47%;
+    /* background-color: rgb(122, 123, 149); */
+    margin-right: 30px;
+    padding: 25px;
+    /* margin-top: 35px; */
+    /* justify-content: space-around; */
+}
+
+#box1 h1{
+    padding: 20px;
+}
+
+#box1 p{
+    padding: 500 px;
+}
+#heading h1{
+    font-weight: 600;
+}
+
+#box1 h1{
+    font-size: 65px;
+    color: rgb(2, 2, 113);
+    padding: 10px;
+}
+
+#box1 p{
+    font-size: 25px;
+    margin: 15px;
+    color: rgb(2, 2, 113);
+    /* margin-bottom: 15px; */
+}
+
+#btns{
+    display: flex;
+    
+}
+#btn1:hover{
+    background-color: rgb(1, 6, 148);
+}
+#btn2:hover{
+    background-color: rgb(186, 239, 255);
+    color: rgb(1, 6, 148);
+    border-color: rgb(1, 6, 148);
+    
+}
+#btn1{
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 25%;
+    color: white;
+    background-color: rgb(77, 186, 223);
+    font-weight: bolder;
+    margin: 20px;
+    align-items: center;
+}
+#btn2{
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 25%;
+    color: rgb(77, 186, 223);
+    border: 2px solid rgb(170, 200, 237);
+    margin: 20px;
+    font-weight: bolder;
+}
+
+#box2{
+    height: 90%;
+    width: 47%;
+    background-color: rgb(1, 6, 148);
+
+}
+#box2 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#heading{
+    width: 100%;
+    height: 18%;
+    font-size: large;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#strip p{
+    font-weight:bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#strip u{
+margin-left: 25px;
+}
+#page2{
+    height: 90vh;
+    width: 100%;
+    /* background-color:rgb(92, 100, 255); */
+}
+
+#page2 img{
+    width: 100%;
+}
+
+#content2{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Box1{
+    background-color: rgb(255, 255, 255);
+    height: 80%;
+    width: 16%;
+}
+#Box2{
+    background-color: rgb(255, 255, 255);
+    height: 80%;
+    width: 16%;
+}
+#Box3{
+    background-color: rgb(255, 255, 255);
+    height: 80%;
+    width: 16%;
+}
+#Box4{
+    background-color: rgb(252, 252, 252);
+    height: 80%;
+    width: 16%;
+}
+ #Box1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#Box2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#Box3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#Box4 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#area1b4 img{
+    height: 100%;
+    width: 100%;
+}
+

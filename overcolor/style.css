@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+
+}
+.shape{
+    height: 90%;
+    width: 90%;
+    background-color: rgb(29, 235, 84);
+
+}
+.ping{
+    height: 90%;
+    width: 90%;
+    background-color: rgb(235, 29, 187);
+}
+.badms{
+    height: 90%;
+    width: 90%;
+    background-color: rgb(1, 12, 17);
+}
+.hero{
+    height: 90%;
+    width: 90%;
+    background-color: rgb(249, 252, 252);
+}
+.sing{
+    height: 90%;
+    width: 90%;
+    background-color: rgb(1, 162, 255);
+}

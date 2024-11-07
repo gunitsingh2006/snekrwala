@@ -1,0 +1,12 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+div{
+    background-color: bisque;
+    width: 50%;
+    height: 40%;
+}   
